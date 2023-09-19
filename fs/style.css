@@ -1,0 +1,35 @@
+
+h1{
+background-color: white;
+color:black;
+opacity: 0.7;
+align-items: center;
+}
+.card{
+width: 60%;
+height: 40%;
+left: 20%;
+opacity: 0.8;
+}
+body {
+background: linear-gradient(-45deg, #ff0b0b, #3ce789, #7f23d5, #2382d5);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh;
+}
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+.display{
+position: relative;
+align-items: center;
+justify-content: center;
+}
